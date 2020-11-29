@@ -41,7 +41,7 @@ a {
     width: 100%;
 }
 
-.menu a {
+.menu a:not(:first-child) {
     margin-left: 40px;
 }
 
