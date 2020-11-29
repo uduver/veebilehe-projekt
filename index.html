@@ -15,15 +15,22 @@
     <img src="/assets/img/logo.png" class="logo">
     <div class="menu">
         <div class="menu-content">
-            <a href="index.html" class="active">Avaleht</a>
-            <a href="meist.html">Meist</a>
-            <a href="loomad.html">Loomad ▼</a>
+            <span onclick="openLeht('avaleht.html')" class="item">Avaleht</span>
+            <span onclick="openLeht('meist.html')" class="item">Meist</span>
+            <div class="dropdown item" style="float:right;">
+                <span>Loomad ▼</button>
+                <div class="dropdown-content">
+                    <span onclick="openLeht('pandakaru.html')">Pandakaru</span>
+                    <span onclick="openLeht('hobune.html')">Hobune</span>
+                </div>
+            </div>
         </div>
     </div>
     <div class="container">
-        <div class="content">
+        <div class="content" id="content">
             <h3>Tere tulemast!</h3>
-            <p>Me oleme Eesti suurim loomadele pühendatud fännileht. Siit veebilehelt võib leida kõike, mis seostub loomadega. Palun mõelge keegi siia midagi.</p>
+            <p>Me oleme Eesti suurim loomadele pühendatud fännileht. Siit veebilehelt võib leida kõike, mis seostub
+                loomadega. Palun mõelge keegi siia midagi.</p>
         </div>
     </div>
     <script src="/assets/js/script.js"></script>

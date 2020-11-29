@@ -12,3 +12,11 @@ setInterval(() => {
     currentBackground %= listOfBackgrounds.length
     document.body.style.backgroundImage = `url(${listOfBackgrounds[currentBackground]})`
 }, 3000)
+
+function openLeht(leht) {
+    fetch(leht).then((content) => {
+        return content.text()
+    }).then((sisu) => {
+        content.innerHTML = sisu
+    })
+}
