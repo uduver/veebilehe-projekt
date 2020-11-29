@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    background: url('https://cdn.stocksnap.io/img-thumbs/960w/nature-snow_MYB1PRE1CG.jpg') fixed no-repeat;
+    background-size: cover;
+}
+
+a {
+    color: aliceblue;
+    text-decoration: none;
+}
+
+.container {
+    width: 60vw;
+    margin-left: 20vw;
+    background-color: white;
+    border-radius: 0 0 20px 20px
+}
+
+.logo {
+    width: 40vw;
+    margin-left: 30vw;
+    margin-top: 5vh
+}
+
+.menu {
+    width: 60vw;
+    margin-left: 20vw;
+    background-color: purple;
+    border-radius: 20px 20px 0 0;
+    margin-top: 2em;
+}
+
+.full-width {
+    width: 100%;
+}
+
+.menu a {
+    margin-left: 40px;
+}
+
+.menu-content {
+    padding: 2em;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.content {
+    padding: 2em;
+}
+
+@media only screen and (max-width: 600px) {
+    body {
+        background-color: lightblue;
+    }
+
+    .container {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+
+    .menu {
+        width: 90vw;
+        margin-left: 5vw;
+    }
+}
