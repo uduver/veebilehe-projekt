@@ -71,6 +71,9 @@ body {
     z-index: 1;
 }
 
+.yt-video {
+    width: 100%;
+}
 .dropdown-content span {
     color: white;
     padding: 10px 20px;
