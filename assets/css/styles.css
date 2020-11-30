@@ -6,17 +6,13 @@
     font-family: 'Poppins', sans-serif;
 }
 
+/* Määrab lehekülje esialgse taustapildi, selle atribuudid ja lisaks paneb alla äärde 2em laiuse tühimiku. */
 body {
     background: url('https://cdn.stocksnap.io/img-thumbs/960w/nature-snow_MYB1PRE1CG.jpg') fixed no-repeat tan;
     background-size: cover;
     padding-bottom: 2em;
 }
 
-.menu span {
-    color: aliceblue;
-    text-decoration: none;
-    cursor: pointer;
-}
 
 .container {
     width: 60vw;
@@ -31,6 +27,16 @@ body {
     margin-top: 5vh
 }
 
+.full-width {
+    width: 100%;
+}
+
+.menu span {
+    color: aliceblue;
+    text-decoration: none;
+    cursor: pointer;
+}
+
 .menu {
     width: 60vw;
     margin-left: 20vw;
@@ -39,10 +45,7 @@ body {
     margin-top: 2em;
 }
 
-.full-width {
-    width: 100%;
-}
-
+/* Lisab igale menüü elemendile margini, välja arvatus esimesele. */
 .menu-content .item:not(:first-child) {
     margin-left: 40px;
 }
@@ -52,10 +55,6 @@ body {
     display: flex;
     justify-content: center;
     align-items: center;
-}
-
-.content {
-    padding: 2em;
 }
 
 .dropdown {
@@ -71,9 +70,6 @@ body {
     z-index: 1;
 }
 
-.yt-video {
-    width: 100%;
-}
 .dropdown-content span {
     color: white;
     padding: 10px 20px;
@@ -86,7 +82,15 @@ body {
     display: block;
 }
 
+.content {
+    padding: 2em;
+}
 
+.yt-video {
+    width: 100%;
+}
+
+/* Tänapäeval külastatakse enamus veebilehti mobiiliga, seetõttu on meie veebileht mobiilisõbralik. */
 @media only screen and (max-width: 600px) {
     body {
         background-color: lightblue;
