@@ -4,6 +4,7 @@
 
 Tegime loomadele pühendatud veebilehe. Veebilehelt võib leida erinevate loomade 
 kohta huvitavat/kasulikku infot. Leheküljed on illustreeritud piltide ja värvilise elementidega.
+Veebilehel vahetub taust, vahelehed laetakse failist ja leht on mobiilisõbralik.
 
 ## Tiimiliikmed
 
