@@ -9,6 +9,7 @@
 body {
     background: url('https://cdn.stocksnap.io/img-thumbs/960w/nature-snow_MYB1PRE1CG.jpg') fixed no-repeat;
     background-size: cover;
+    padding-bottom: 2em;
 }
 
 .menu span {
@@ -25,8 +26,8 @@ body {
 }
 
 .logo {
-    width: 40vw;
-    margin-left: 30vw;
+    width: 20vw;
+    margin-left: 40vw;
     margin-top: 5vh
 }
 
