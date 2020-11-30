@@ -17,3 +17,8 @@ siis tal võttis raskema probleemi lahendamiseks vähema ega kui mõnel teisel t
 Seega jaotasime ajaliselt ühtlaselt tiimivahel ülesanded ära. Oliver kui kõige osavam liige valmistas 
 peamised veebilehe kondid ja javascripti. Marek ja Karl Gustav tegelesid loomade lehtede ja teksti täiendusega.
 Igal arendamise etapil arutasime muudatused üle ning kinnitasime need üheskoos.
+
+## Suurimad raskused
+
+Suurimateks tõketeks, antud projektiga tegutsemise ajal, osutusid arvatavasti github ja selle funktsionaalsustega 
+ära harjumine.
