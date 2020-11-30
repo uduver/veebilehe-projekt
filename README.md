@@ -20,5 +20,5 @@ Igal arendamise etapil arutasime muudatused üle ning kinnitasime need üheskoos
 
 ## Suurimad raskused
 
-Suurimateks tõketeks, antud projektiga tegutsemise ajal, osutusid arvatavasti github ja selle funktsionaalsustega 
+Suurimateks tõketeks, antud projektiga tegutsemise ajal, osutusid arvatavasti GitHub ja selle funktsionaalsustega 
 ära harjumine.
